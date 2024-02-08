@@ -176,10 +176,10 @@ header img{
 }
 
 .texto p{
-    font-size: 2vh;
-    padding: 20px;
+    font-size: 3vh;
+    padding: 30px;
     margin-top: 20px;
-    color: var(--main-3-color);
+    color: var(--main-4-color);
 }
 
 
@@ -191,7 +191,7 @@ header img{
     width: 80vw;
     height: 85vh;
     border-radius: 20px;
-    align-items: center;
+
 }
 
 
@@ -204,7 +204,183 @@ header img{
     height: 85vh;
     border-radius: 20px;
     align-items: center;
-    display: none;
+}
+
+#abrigos .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor .uno{
+    display: flex;
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .uno img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .uno p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .uno a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .dos{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .dos img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .dos p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .dos a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .tres{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .tres img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .tres p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .tres a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cuatro{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .cuatro img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .cuatro p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cuatro a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cinco{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .cinco img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .cinco p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cinco a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
 }
 
 
@@ -217,7 +393,183 @@ header img{
     height: 85vh;
     border-radius: 20px;
     align-items: center;
-    display: none;
+}
+
+#camisetas .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor .uno{
+    display: flex;
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .uno img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .uno p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .uno a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .dos{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .dos img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .dos p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .dos a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .tres{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .tres img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .tres p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .tres a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cuatro{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .cuatro img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .cuatro p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cuatro a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cinco{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .cinco img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .cinco p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cinco a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
 }
 
 /*pantalones*/
@@ -229,8 +581,185 @@ header img{
     height: 85vh;
     border-radius: 20px;
     align-items: center;
-    display: none;
 }
+
+#pantalones .contenedor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.contenedor .uno{
+    display: flex;
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .uno img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .uno p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .uno a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .dos{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .dos img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .dos p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .dos a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .tres{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .tres img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .tres p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .tres a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cuatro{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .cuatro img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .cuatro p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cuatro a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cinco{
+    background: var(--main-4-color);
+    font-size: 1.5vh;
+    padding: 20px;
+    color: var(--main-1-color);
+    height: 18vw;
+    width: 15vw;
+    border-radius: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor .cinco img{
+    width: 8vw;
+    padding: 10px;
+}
+
+.contenedor .cinco p{
+    padding: 2px;
+    font-size: 1.8vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
+.contenedor .cinco a{
+    padding: 2px;
+    font-size: 1.5vh;
+    margin: none;
+    color: var(--main-3-color);
+}
+
 
 /*carrito*/
 #cart{
@@ -241,7 +770,6 @@ header img{
     height: 85vh;
     border-radius: 20px;
     align-items: center;
-    display: none;
 }
 
 /*usuario*/
@@ -280,12 +808,6 @@ header img{
         #usuario.active{
             display: flex;
         }
-        #home.active{
-            display: flex;
-        }
-    }
-
-
-    @media(max-width:720px){
         
     }
+
