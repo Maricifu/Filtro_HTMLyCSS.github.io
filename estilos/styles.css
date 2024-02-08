@@ -23,6 +23,7 @@
 
 body{
     background-image: url(/resources/background.png);
+    height: 80vw;
 }
 
 .content{
@@ -191,7 +192,19 @@ header img{
     width: 80vw;
     height: 85vh;
     border-radius: 20px;
+    flex-wrap: wrap;
 
+}
+
+#productos .contenedor6{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -206,7 +219,7 @@ header img{
     align-items: center;
 }
 
-#abrigos .contenedor{
+#abrigos .contenedor1{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -217,7 +230,7 @@ header img{
     width: 100%;
 }
 
-.contenedor .uno{
+.contenedor1 .uno{
     display: flex;
     background: var(--main-4-color);
     font-size: 1.5vh;
@@ -232,26 +245,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .uno img{
+.contenedor1 .uno img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .uno p{
+.contenedor1 .uno p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .uno a{
+.contenedor1 .uno a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .dos{
+.contenedor1 .dos{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -265,26 +278,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .dos img{
+.contenedor1 .dos img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .dos p{
+.contenedor1.dos p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .dos a{
+.contenedor1 .dos a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .tres{
+.contenedor1 .tres{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -298,26 +311,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .tres img{
+.contenedor1 .tres img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .tres p{
+.contenedor1 .tres p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .tres a{
+.contenedor1 .tres a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cuatro{
+.contenedor1 .cuatro{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -331,26 +344,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .cuatro img{
+.contenedor1 .cuatro img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .cuatro p{
+.contenedor1 .cuatro p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cuatro a{
+.contenedor1 .cuatro a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cinco{
+.contenedor1 .cinco{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -364,19 +377,19 @@ header img{
     align-items: center;
 }
 
-.contenedor .cinco img{
+.contenedor1 .cinco img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .cinco p{
+.contenedor1 .cinco p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cinco a{
+.contenedor1 .cinco a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
@@ -395,7 +408,7 @@ header img{
     align-items: center;
 }
 
-#camisetas .contenedor{
+#camisetas .contenedor2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -406,7 +419,7 @@ header img{
     width: 100%;
 }
 
-.contenedor .uno{
+.contenedor2 .uno{
     display: flex;
     background: var(--main-4-color);
     font-size: 1.5vh;
@@ -421,26 +434,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .uno img{
+.contenedor2 .uno img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .uno p{
+.contenedor2 .uno p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .uno a{
+.contenedor2 .uno a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .dos{
+.contenedor2 .dos{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -454,26 +467,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .dos img{
+.contenedor2 .dos img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .dos p{
+.contenedor2 .dos p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .dos a{
+.contenedor2 .dos a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .tres{
+.contenedor2 .tres{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -487,26 +500,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .tres img{
+.contenedor2 .tres img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .tres p{
+.contenedor2 .tres p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .tres a{
+.contenedor2 .tres a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cuatro{
+.contenedor2 .cuatro{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -520,26 +533,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .cuatro img{
+.contenedor2 .cuatro img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .cuatro p{
+.contenedor2 .cuatro p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cuatro a{
+.contenedor2 .cuatro a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cinco{
+.contenedor2 .cinco{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -553,19 +566,19 @@ header img{
     align-items: center;
 }
 
-.contenedor .cinco img{
+.contenedor2 .cinco img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .cinco p{
+.contenedor2 .cinco p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cinco a{
+.contenedor2 .cinco a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
@@ -583,7 +596,7 @@ header img{
     align-items: center;
 }
 
-#pantalones .contenedor{
+#pantalones .contenedor3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -594,7 +607,7 @@ header img{
     width: 100%;
 }
 
-.contenedor .uno{
+.contenedor3 .uno{
     display: flex;
     background: var(--main-4-color);
     font-size: 1.5vh;
@@ -609,26 +622,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .uno img{
+.contenedor3 .uno img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .uno p{
+.contenedor3 .uno p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .uno a{
+.contenedor3 .uno a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .dos{
+.contenedor3 .dos{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -642,26 +655,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .dos img{
+.contenedor3 .dos img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .dos p{
+.contenedor3 .dos p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .dos a{
+.contenedor3 .dos a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .tres{
+.contenedor3 .tres{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -675,26 +688,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .tres img{
+.contenedor3 .tres img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .tres p{
+.contenedor3 .tres p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .tres a{
+.contenedor3 .tres a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cuatro{
+.contenedor3 .cuatro{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -708,26 +721,26 @@ header img{
     align-items: center;
 }
 
-.contenedor .cuatro img{
+.contenedor3 .cuatro img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .cuatro p{
+.contenedor3 .cuatro p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cuatro a{
+.contenedor3 .cuatro a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cinco{
+.contenedor3 .cinco{
     background: var(--main-4-color);
     font-size: 1.5vh;
     padding: 20px;
@@ -741,19 +754,19 @@ header img{
     align-items: center;
 }
 
-.contenedor .cinco img{
+.contenedor3 .cinco img{
     width: 8vw;
     padding: 10px;
 }
 
-.contenedor .cinco p{
+.contenedor3 .cinco p{
     padding: 2px;
     font-size: 1.8vh;
     margin: none;
     color: var(--main-3-color);
 }
 
-.contenedor .cinco a{
+.contenedor3 .cinco a{
     padding: 2px;
     font-size: 1.5vh;
     margin: none;
@@ -769,8 +782,20 @@ header img{
     width: 80vw;
     height: 85vh;
     border-radius: 20px;
-    align-items: center;
+    flex-wrap: wrap;
+
 }
+
+#cart .contenedor5{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
 
 /*usuario*/
 #usuario{
